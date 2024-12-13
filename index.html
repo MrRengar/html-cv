@@ -1,28 +1,296 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
- <head>
-<h1>MrRengar'ın cvsi</h1>
-<h2>Web developer</h2>
-<hr />
-</head><!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-<body> 
- <a href="./public/movie-ranking.html "><h2>Film sıralaması projem </h2></a>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
- <img src="./assets/images/movie-ranking.png" height="300"/>
- <!-- TODO 4: Add titles/subtitles etc. -->
+        <meta name="description" content="">
+        <meta name="author" content="">
 
- <!-- TODO 5: Add a link to the project pages -->
- <h2>
-    <a href="./public/movie-ranking.html">Doğumgünü daveti projem</a>
- </h2>
- <!-- TODO 6: Add images to show the project previews
- HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-<img src="./assets/images/birthday-invite.png" height="400"/>
-<hr />
- <!-- TODO 7: Add the Contact Me and About Me page links -->
-<h4>
-    <a href="./public/about.html">Hakkımda</a>
-    <a href="./public/contact.html">İletişim</a>
-</h4>
-</body>
+        <title></title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <strong><span>Beceriksiz </span> Romeo</strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Ana Menü</a>
+                            </li>
+
+                            
+
+
+                        <div class="d-none d-lg-block">
+                            
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="images/brresim1.png" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Ben Kimim</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Adım Yasir 31 yaşındayım 6 yıldır yayıncılık işi içerisindeyim eskiden insan kaynakları olarak çalışıyordum. Bu işe telefon uygulamalarında başaldım oralarda belli bi seviyeye geldikten sonra kick gibi büyük platformarda işimi devam ettirmeye geldim. Kendi içerilerimle eğlenceli bir yayın ortamı kurmayı planlıyorum.</p>
+
+                                    <a href="about.html" class="btn custom-btn">Yayına Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/brresim2.png" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Oynadığımız Oyunlar</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Genelde kitlemizin çoğunun katılabilmesi açısından basit ekip oyunlarından seçeriz sizi de aramızda görmekten mutluluk duyarız</p>
+
+                                    <a href="product.html" class="btn custom-btn">Yayına Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/brresim3.png" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Her gün kick'de saat 21:00</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Her gün geniş içerik yelpazesiyle sizleri 21:00 da kick'de karşılıyoruz</p>
+
+                                    <a href="https://kick.com/beceriksizrome0" class="btn custom-btn"> Yayına Git</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">içeriklerimiz <span></span> </h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">B.R Game</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">Anonim Mesaj</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">Haber Magazin</button>
+                                </li>
+                                
+                               
+                                
+                                
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/brfoto1.png" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Br Game  <span> </span> <br> 
+
+                                                <p>24 basamak bulunan ve ödüllerin cezaların olduğu bir oyun ancak kimse ceza yapmak zorunda değil, oyuna hayali 500 BR coins ile başladığınız ancak iyi yönetmeniz gereken 500 coins ile size gelen cezaları iptal edebilir veya 2 katına başka bir oyuncuya yaptırabilirsiniz. Eğlenceli cezaların bulunduğu ancak şansınıza atmış olduğunuz zarla oyun içindeki rakamlı kutuluarın içinden de ekstra BR Coins kazanabilirsiniz. Eğlenceli cezaların bol olduğu ekstra olarak ilk finale ulaşan kişinin ekstra ödül almış olduğu bir içerik</p>
+
+                                                <p></p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about.html" class="custom-link mb-2">
+                                                      <!-- buraya link olacak yazı-->
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <iframe src="images/brfoto3.png" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Anonim Mesaj</h4>
+
+                                                <p>Blind ID isimli uygulama üzerinden instagramda da kullanabileceğiniz güvenilir bir uygulamadan yaptığımız izleyenlere yazacakları mesajın linkini gönderip, kendileri hakkında itiraf verdikleri veya chate soru bana soru sordukları bir içerik, önceliğimiz itiraf olan ancak ekstra olarak benim sormuş olduğum 4 adet soruyada bu linkten cevap vererek ve biriken mesajları 15 dakika gibi sürenin ardından okumaya başladığımız mesajlar, kimin yazdığını asla bilmediğimiz bir içerik isterseniz isimli isterseniz isimsiz olarak itiraflarınızı okuyoruz</p>
+
+                                                <p></p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="contact.html" class="custom-link mb-2">
+                                                        <!-- buraya link olacak yazı-->
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <img src= "images/brfoto1.png">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">B.R Game</h4>
+
+                                                <p>24 basamak bulunan ve ödüllerin cezaların olduğu bir oyun ancak kimse ceza yapmak zorunda değil, oyuna hayali 500 BR coins ile başladığınız ancak iyi yönetmeniz gereken 500 coins ile size gelen cezaları iptal edebilir veya 2 katına başka bir oyuncuya yaptırabilirsiniz. Eğlenceli cezaların bulunduğu ancak şansınıza atmış olduğunuz zarla oyun içindeki rakamlı kutuluarın içinden de ekstra BR Coins kazanabilirsiniz. Eğlenceli cezaların bol olduğu ekstra olarak ilk finale ulaşan kişinin ekstra ödül almış olduğu bir içerik</p>
+
+                                                <p></p>
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="contact.html" class="custom-link mb-2">
+                                                        <!-- buraya link olacak yazı-->
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/brfoto2.png" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Haber & Magazin</h4>
+
+                                                <p>Kick platformunda bulunan tüm yayıncıların haberinin yapılabildiği ancak asla kaos ve nefret söylemleri içermeyen bazen 1 fotoğraftan bazen 1 yayın kesitinizden haber yapabildiğimiz, insanların yüzünde tebessüm oluşturacak haberlere yer verdiğimiz ve takım elbise, kravat, gömlek, ceket, altımızda şort ile ve elimizde sunucu kartına yazdığımız haberleri görsel bir şekilde paylaşıp okuduğumuz, sağlam hazırlandığımız bir içerik</p>
+
+                                                <div class="skill-thumb mt-3">
+
+                                                    
+
+                                                </div>
+                                                
+                                                
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+            </section>
+
+            
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Created By</a> MrRengar</h4>
+                        
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
